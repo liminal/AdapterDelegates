@@ -1,7 +1,5 @@
 package com.hannesdorfmann.adapterdelegates3.sample.animations;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +8,9 @@ import android.widget.TextView;
 import com.hannesdorfmann.adapterdelegates.sample.R;
 import com.hannesdorfmann.adapterdelegates3.AbsListItemAdapterDelegate;
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * @author Hannes Dorfmann

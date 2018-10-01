@@ -16,8 +16,9 @@
 
 package com.hannesdorfmann.adapterdelegates3;
 
-import android.support.annotation.NonNull;
 import java.util.List;
+
+import androidx.annotation.NonNull;
 
 /**
  * An adapter implementation designed for items organized in a {@link List}. This adapter

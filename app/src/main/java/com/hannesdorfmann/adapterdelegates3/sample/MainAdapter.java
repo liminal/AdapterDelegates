@@ -17,8 +17,6 @@
 package com.hannesdorfmann.adapterdelegates3.sample;
 
 import android.app.Activity;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 import com.hannesdorfmann.adapterdelegates3.AdapterDelegatesManager;
 import com.hannesdorfmann.adapterdelegates3.sample.adapterdelegates.AdvertisementAdapterDelegate;
@@ -28,6 +26,9 @@ import com.hannesdorfmann.adapterdelegates3.sample.adapterdelegates.GeckoAdapter
 import com.hannesdorfmann.adapterdelegates3.sample.adapterdelegates.SnakeListItemAdapterDelegate;
 import com.hannesdorfmann.adapterdelegates3.sample.model.DisplayableItem;
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * @author Hannes Dorfmann

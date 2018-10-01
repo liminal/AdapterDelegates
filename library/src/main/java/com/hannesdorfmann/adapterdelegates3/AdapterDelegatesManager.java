@@ -16,13 +16,14 @@
 
 package com.hannesdorfmann.adapterdelegates3;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.util.SparseArrayCompat;
-import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 import java.util.Collections;
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.collection.SparseArrayCompat;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * This class is the element that ties {@link RecyclerView.Adapter} together with {@link

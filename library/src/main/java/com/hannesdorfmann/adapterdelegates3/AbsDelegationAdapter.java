@@ -16,10 +16,11 @@
 
 package com.hannesdorfmann.adapterdelegates3;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * An implementation of an Adapter that already uses a {@link AdapterDelegatesManager} and calls

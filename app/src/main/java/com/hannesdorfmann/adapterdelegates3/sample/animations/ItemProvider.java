@@ -1,12 +1,13 @@
 package com.hannesdorfmann.adapterdelegates3.sample.animations;
 
 import android.graphics.Color;
-import android.support.annotation.Nullable;
-import android.support.v4.util.Pair;
-import android.support.v7.util.DiffUtil;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
+import androidx.annotation.Nullable;
+import androidx.core.util.Pair;
+import androidx.recyclerview.widget.DiffUtil;
 
 /**
  * @author Hannes Dorfmann
